@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="">
+		<input type="number" min=1 max=10>
+		<br>
+		<input type="hidden">
+		<br>
+		<input type="email">
+		<br>
+		<input type="tel" pattern="\d{3}-\d{3}-\d{3}">
+		<br>
+		<input  type="range" min=1 max=6 onchange="updateRange(this.value)">
+		<span id='num_people'></span>
+		<br>
+		<input type="color">
+		<br>
+		<input type="file">
+		<br>
+		<input type="radio" name="fruit" value="apple">apple
+		<input type="radio" name="fruit" value="orange">orange
+		<input type="radio" name="fruit" value="grape">grape
+		<br>
+		<input type="checkbox" name="lunch" value="pizza">pizza
+		<input type="checkbox" name="lunch" value="burger">burger
+		<input type="checkbox" name="lunch" value="hotdog">hotdog
+		<br>
+		<select name="" id="">
+		    <option value="ps">Please Select</option>
+		    <option value="on">Ontario</option>
+		    <option value="sk">Saskatchewan</option>
+		    <option value="mn">Manitoba</option>
+		</select>
+		<input type="submit">
+	</form>
+
+
+	<script>
+		function updateRange(val) {
+			var num_people = document.getElementById('num_people');
+			num_people.innerHTML = val;
+		}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table{
+            border: solid 1px tomato;
+            border-collapse: collapse;
+        }
+        
+        th,td{
+            width:100px;
+            height:40px;
+        }
+        
+        .red td.name{
+            background-color: red;
+        }
+        
+        .red td.rgb{
+            background-color: rgb(255,0,0)
+        }
+        .red td.hex{
+            background-color: #ff0000;
+        }
+        .red td.hsl{
+            background-color: hsl(0,100%,50%)
+        }
+        .blue td.name{
+            background-color: blue;
+        }
+        .blue .rgb{
+            background-color: rgb(0,0,255);
+        }
+/*        you do not have to put the word td in, it is only so you can see that it is td*/
+        .blue .hex{
+            background-color: #0000ff
+        }
+        .blue td.hsl{
+            background-color: hsl(240,100%,50%)
+        }
+    
+    </style>
+</head>
+<body>
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>RGB</th>
+            <th>HEX</th>
+            <th>HSL</th>
+        </tr>
+        <tr class="red">
+            <td class="name"></td>
+            <td class="rgb"></td>
+            <td class="hex"></td>
+            <td class="hsl"></td>
+        </tr>
+        <tr class="blue">
+            <td class="name"></td>
+            <td class="rgb"></td>
+            <td class="hex"></td>
+            <td class="hsl"></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <style>
+        p{
+            background-color: #7fffff;
+            color: white;
+            height: 51px;
+            font-size: 30px;
+            line-height: 51px;
+        }
+        p:before{
+            content:'*';
+            width: 40px;
+            height: 51px;
+            background-color: red;
+            display:inline-block;
+            
+            vertical-align: top;
+        }
+        p:after{
+            content:'**'
+        }
+    </style>
+</head>
+<body>
+    <p>Don't worry, be happy</p>
+    <p>Don't worry, stay happy</p>
+    <p>Don't worry, remain happy</p>
+</body>
+</html>

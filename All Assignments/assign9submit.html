@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 9</title>
+	<style>
+		* {
+			padding:0;
+			margin:0;
+		}
+		
+		.wid {
+			width: 310px;
+			height: 25px;
+			color: grey;
+		}
+
+		form {
+			padding: 40px;
+		}
+
+		.label {
+			width: 100px;
+			display: inline-block;
+		}
+		
+		#payment input {
+			border: solid;	
+			margin-left: 16px;
+		}
+	
+		#payment #firstinp {
+			margin-left: 0px;
+		}
+		fieldset {
+			padding: 30px;
+			width: 500px;
+		}
+		form textarea {
+/*			width: 561px;*/
+/*			height: 200px;*/
+		}
+		#submit {
+			margin-left: 465px;
+			width: 100px;
+			height: 40px;
+			-webkit-appearance: none;
+			border-radius: 5px;
+			background-color: lightblue;
+		}
+		select {
+			width: 314px;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="">
+		<fieldset>
+			<legend>Payment Information</legend>
+			
+		<div>
+			<label for="" class='label'>Name:</label>
+			<input class="wid" type="text" value="Please enter your full name">
+		</div>
+		<br>
+		<div>
+			<label for="" class='label'>Email:</label>
+			<input class="wid" type="email" value="Please enter your email"></div>
+		<br>
+		<div>
+			<label for="" class='label'>Phone</label>
+			<input class="wid" type="tel" value="Please enter your phone number" pattern="\d{3}-\d{3}-\d{4}"></div>
+		<br>
+		<div>
+			<label for="" class='label'>City:</label>
+			<select name="">
+        <option value="ps">Please Select </option>
+        <option value="t">Toronto</option>
+        <option value="k">Kitchener</option>
+        <option value="l">London</option>
+        <option value="o">Ottawa</option>
+        <option value="ks">Kingston</option>
+        <option value="h">Hamilton</option>
+        <option value="b">Barrie</option>
+        <option value="ssm">Sault St. Marie</option><option value="m">Mississauga</option>
+        <option value="tb">Thunder Bay</option></select></div>
+		<br>
+		<div id='payment'>
+			<label for="" class='label'>Payment options:</label>
+			<input id='firstinp' type="radio" name="pay" value="mastercard"> Mastercard
+			<input type="radio" name="pay" value="visa"> Visa
+			<input type="radio" name="pay" value="cheque"> Cheque
+			<input type="radio" name="pay" value="paypal"> Paypal
+		</div>
+		</fieldset>
+		<br>
+		<textarea rows="13" cols="91" placeholder="Please leave your comments"></textarea>
+		
+		<br>
+		<input id='submit' type="submit">
+	</form>
+</body>
+</html>
+
+

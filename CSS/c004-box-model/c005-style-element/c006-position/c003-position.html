@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 600px;
+            height: 200px;
+            border: double blue;
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .relative .item {
+            position: relative;
+            /*			right: 50px;*/
+            left: 200px;
+        }
+
+        .absolute {
+            position: relative;
+        }
+
+        .absolute .item {
+            position: absolute;
+            right: 50px;
+        }
+
+        .fixed .item {
+            position: fixed;
+            right: 200px;
+            bottom: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container relative">
+        <div class="item"></div>
+        <p>I am below the absolute item</p>
+    </div>
+    <div class="container absolute">
+        <div class="item"></div>
+        <p>I am below the absolute item</p>
+    </div>
+    <div class="container fixed">
+        <div class="item">
+        </div>
+    </div>
+
+</body>
+</html>
+

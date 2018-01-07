@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Docu</title>
+    <style>
+        div{
+            color: blue;
+            display: inline;
+			border: solid;
+        }
+/*		pseudo selector */
+		li:not(:first-child):before {
+			content:"•";
+			margin-right: 4px;
+		}
+		
+		li {
+			display: inline-block;
+		}
+		
+        #about{
+            margin-left: 7px;
+        }
+    </style>
+</head>
+<body>
+	<ul>
+		<li>About</li>
+		<li>Products</li>
+		<li>Services</li>
+		<li>Contact</li>
+	</ul>
+</body>
+</html>
+
+
+

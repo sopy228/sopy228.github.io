@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style>
-        div{
-            border: solid;
-        }
-    
-    </style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		div {
+			border: solid 1px red;
+		}
+		
+		span {
+			border: solid 1px red;
+			/*			width: 50px;*/
+			/*			height: 50px;*/
+			font-size: 2em;
+		}
+		
+		#inlineblock {
+			border: solid 1px red;
+			display: inline-block;
+		}
+		
+		#none {
+			border: solid;
+			display: none;
+			height: 50px;
+		}
+		
+		#viz {
+			width: 50px;
+			height: 50px;
+			visibility: hidden;
+		}
+	</style>
 </head>
+
 <body>
-   <ul>
-       <li>block has no height</li>
-       <li>block takes the whole width of the page</li>
-       <li>block can set width and height</li>
-   </ul>
-    <div></div>
+
+	<h1>block</h1>
+	<ul>
+		<li>take whole width of its container</li>
+		<li>no height</li>
+		<li>can set width and height</li>
+	</ul>
+	<div></div>
+
+	<h1>inline</h1>
+	<ul>
+		<li>no width</li>
+		<li>height=font-size</li>
+		<li>can not width and height</li>
+	</ul>
+	<span></span>
+
+	<h1>inline-block</h1>
+	<ul>
+		<li>no width, no height</li>
+		<li>can set width and height</li>
+	</ul>
+	<div id='inlineblock'></div>
+
+	<h1>none</h1>
+	<ul>
+		<li>no display, not occupy space</li>
+	</ul>
+	<div id="none"></div>
+
+	<h1>invisible</h1>
+	<ul>
+		<li>no display, occupy space</li>
+	</ul>
+	<div id="viz"></div>
+
 </body>
+
 </html>
+

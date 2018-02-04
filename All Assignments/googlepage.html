@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google</title>
+	<style>
+		#google{
+			background-image: url(https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+			background-size: 300px;
+			width: 300px;
+			height: 100px;
+			
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%)
+			translateY(-150%);
+		
+				
+		}
+		
+		#textbar{
+			width: 450px;
+			height: 30px;
+			box-shadow: -1px 2px 8px lightgray;
+			border-style: none;
+			
+			
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%)
+			translateY(-130%);
+			
+			font-size: 18px;
+		}
+		
+		ul{
+			list-style: none;
+		}
+		li{
+			display: inline-block;
+			margin: 5px;
+		}
+		a{
+			text-decoration: none;
+			color: dimgrey;
+			font-size: 13px;
+			font-family: sans-serif;
+		}
+		a:hover{
+			text-decoration: underline;
+			color: grey;
+		}
+		#img{
+			background-image: url('http://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+			background-size: 650px;
+			
+			width: 20px;
+			height: 30px;
+			
+			background-position: -821px -136px;
+			vertical-align: top;
+			
+			opacity: 0.6;
+			
+			position: fixed;
+			right: 105px;
+			top: 11px;
+		}
+		
+		.li.btn{
+			vertical-align: top;
+			display: inline-block;
+			text-align: center;
+			padding: 9px 0px;
+			width: 65px;
+			height: 12px;
+			border-radius: 3px;
+			font-size: 12px;
+            margin-top: -2px;
+			font-weight: bold;
+			font-family:sans-serif;
+			color: white;
+			background-color: rgb(81,136,241);
+			
+			position: fixed;
+			right: 17px;
+			
+		}
+		
+		#gmail{
+			position: fixed;
+			right: 215px;
+		}
+		
+		#imgs{
+			position: fixed;
+			right: 150px
+		}
+		
+		#about{
+			position: fixed;
+			left: 30px;
+		}
+		
+		#store{
+			position: fixed;
+			left: 90px;
+		} 
+		
+		#gsearchbtn{
+			width: 140px;
+			height: 40px;
+			background-color: rgb(243,243,243);
+			
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-98%)
+			translateY(100%);
+			border-radius: 2px;
+			
+			font-family: sans-serif;
+			text-align: center;
+			color: rgb(117,117,117);
+			
+			line-height: 37px;
+			font-size: 15px;
+			font-weight: bold
+
+
+
+			
+		}
+		
+		#gsearchbtn:hover{
+			color: black;
+			border: solid 1px lightgrey;
+		}
+		
+		#imfeelinglucky{
+			width: 140px;
+			height: 40px;
+			background-color: rgb(243,243,243);
+			
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(7%) translateY(100%);
+			border-radius: 2px;
+			
+			font-family: sans-serif;
+			text-align: center;
+			color: rgb(117,117,117);
+			
+			line-height: 37px;
+			font-size: 15px;
+			font-weight: bold;
+			
+		}
+		
+		#imfeelinglucky:hover{
+			color: black;
+			border: solid 1px lightgrey;
+		}
+	</style>
+</head>
+<body>
+	<div id="google"></div>
+	
+	<form action="">
+		<input type="text" id="textbar">
+	</form>
+	
+	
+	<ul>
+		<li class="li" id="gmail"><a href="">Gmail</a></li>
+		<li class="li" id="imgs"><a href="">Images</a></li>
+		<li id="img"></li>
+		<li class="li btn">
+		Sign in
+		</li>
+	</ul>
+	
+	
+	<ul>
+		<li class="li" id="about"><a href="">About</a></li>
+		<li class="li" id="store"><a href="">Store</a></li>
+	</ul>
+	
+	<div id="gsearchbtn">Google Search</div>
+	<div id="imfeelinglucky">I'm feeling lucky</div>
+</body>
+</html>

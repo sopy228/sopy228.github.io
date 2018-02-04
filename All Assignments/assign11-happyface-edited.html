@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Docume</title>
+	<style>
+		#background{
+			width: 400px;
+			height: 400px;
+			background-color: lime;
+		}
+		#circle{
+			width: 350px;
+			height: 350px;
+			background-color: yellow;
+			margin-top: -375px;
+			margin-left: 25px;
+			border-radius: 200px
+		}
+		.eye {
+			width: 75px;
+			height: 120px;
+			background-color: white;
+			border-radius: 40px;
+		}
+		#righteye{
+			margin-top: -275px;
+			margin-left: 250px;
+		}
+		#lefteye{
+			margin-top: -68px;
+			margin-left: 150px;
+		}
+		.pupil {
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			border-radius: 25px;
+		}
+		#repupil{
+			margin-top: -100px;
+			margin-left: 255px;
+		}
+		#lepupil{
+			margin-top: -102px;
+			margin-left: 156px;
+		}
+		#mouthcurve{
+			width: 200px;
+			height: 200px;
+/*			background-color: black;*/
+			border: solid 10px;
+/*			margin-top: 125px;*/
+/*			margin-left: 50px;*/
+			
+			position: absolute;
+			top:120px;
+			left: 100px;
+			
+			border-radius: 50%;
+			border-top-color: transparent;
+			border-left-color: transparent;
+			border-right-color: transparent;
+			
+			transform:rotate(30deg);
+		}
+		
+		.mouth {
+			
+		}
+		#mouthleft{
+			width: 10px;
+			height: 20px;
+			background-color: black;
+			border-radius: 30px;
+/*			margin-top: -64px;*/
+/*			margin-left: 60px;*/
+			position: absolute;
+			left: 100px;
+			top: 249px;
+			transform: rotate(45deg);
+		}
+		#mouthright{
+			width: 10px;
+			height: 20px;
+			background-color: black;
+			border-radius: 30px;
+			
+			position: absolute;
+			left: 229px;
+			top: 325px;
+			transform: rotate(40deg)
+		}
+	</style>
+</head>
+<body>
+	<div id="background"></div>
+	<div id="circle"></div>
+	<div id="righteye" class='eye'></div>
+	<div id="repupil" class='pupil'></div>
+	<div id="lefteye" class='eye'></div>
+	<div id="lepupil" class='pupil'></div>
+	<div id="mouthcurve"></div>
+	<div id="mouthleft"></div>
+	<div id="mouthright"></div>
+</body>
+</html>

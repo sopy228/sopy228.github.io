@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>John Alexander Macdonald</title>
+	<style>
+		.top{
+			width: 1000;
+			height: 1000px;
+			background-color: grey;
+		}
+		
+		#title{
+			font-size: 3rem;
+			font-weight:550;
+			padding-left: 200px;
+			padding-top: 30px;
+		}
+		
+		#subtitle{
+			padding-left: 389px
+		}
+		
+		aside{
+			background-color: grey;
+			color: black;
+			border: solid 1px;
+			height: 30px;
+			width: 750px;
+			float: right;
+            line-height: 1px;
+		}
+		
+		li:before {
+            content: "\2022";
+            margin-right: 12px;
+			margin-left: 6px;	
+        }
+		
+        li:first-child:before {
+            content: ' '
+        }
+
+        li {
+            display: inline-block;
+        }
+		
+		a{
+			text-decoration: none;
+		}
+		
+		a:hover {
+			text-decoration: underline;
+			color: blue;
+		}
+		
+		.container{
+			width: 1000px;
+			height: 1150px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			
+			overflow: auto;		
+		}
+		
+		img{
+			width: 550px;
+			padding-left: 230px;
+		}
+		
+		iframe{
+			width: 600px;
+			
+		}
+		
+		.fixed1{
+			background-image: url(https://s-media-cache-ak0.pinimg.com/originals/46/ba/fc/46bafcefca68b245560a9f736923cee7.jpg);
+		}
+		
+		h1{
+			color: white;
+			padding-left: 40px;
+			font-size: 50px;
+			text-decoration: underline;
+		}
+		
+		p{
+			margin: 40px;
+			font-size: 20px;
+		}
+		
+		#p{
+			color: white;
+		}
+		
+		iframe{
+			padding-left: 200px;
+		}
+		
+		.fixed2{
+			background-image: url(http://www.axiomcyber.com/blog/wp-content/uploads/2016/01/law.jpg)
+		}
+		
+		#firm{
+			width: 400px;
+			padding-left: 300px;
+		}
+		
+		#caption{
+			font-size: 12px;
+			color: white;
+			padding-left: 570px;
+		}
+		
+		.fixed3{
+			background-image: url(https://www.timeshighereducation.com/sites/default/files/political_protest_illustration.jpg)
+		}
+		
+		h2{
+			color: gray;
+			padding-left: 40px;
+			font-size: 50px;
+			text-decoration: underline;
+		}
+		
+		#pp{
+			color: gray;
+		}
+		
+		#spectacles{
+			width: 300px;
+			padding-left: 350px;
+		}
+		
+		#specpic{
+			font-size: 12px;
+			color: grey;
+			padding-left: 550px;
+		}
+
+		
+		.fixed4{
+			background-image: url(http://static1.squarespace.com/static/558b102ee4b0dc96cddb940b/t/558c0c76e4b04cda071ea989/1435241592124/family-ties.jpg?format=1500w);
+			height: 2200px;
+		}
+		
+		#helen{
+			width: 200px;
+			padding-left: 40px;
+		}
+		
+		#isabella{
+			width: 200px;
+			padding-left: 50px;
+		}
+		
+		#agnes{
+			width: 160px;
+			padding-left: 60px
+		}
+		
+		#hughson{
+			width: 170px;
+			padding-left: 70px
+		}
+		
+		#isabella, #helen, #agnes, #hughson{
+			display: inline-block;
+		}
+		
+		#momcap{
+			color: white;
+			font-size: 12px;
+			padding-left: 60px;
+		}
+		
+		#wifeonecap{
+			color: white;
+			font-size: 12px;
+			padding-left: 80px
+		}
+		
+		#wifetwocap{
+			color: white;
+			font-size: 12px;
+			padding-left: 90px;
+		}
+		
+		#hughcap{
+			color: white;
+			font-size: 12px;
+			padding-left: 50px
+		}
+		
+		#momcap, #wifeonecap, #wifetwocap, #hughcap{
+			display: inline-block;
+		}
+		
+		#mary{
+			width: 200px;
+			padding-left: 400px;
+		}
+		
+		#eliza{
+			width: 200px;
+			padding-left: 400px;
+		}
+		
+		#marycap{
+			color: white;
+			font-size: 12px;
+			padding-left: 450px;
+		}
+		
+		#elizacap{
+			color: white;
+			font-size: 12px;
+			padding-left: 450px;
+		}
+		
+		
+		.fixed5{
+			background-image: url(https://cdni.rt.com/files/2017.05/article/59289e2ec46188fc698b4629.jpg)
+		}
+		
+		#opiumjar{
+			width: 200px;
+			padding-left: 400px;
+		}
+		
+		#opiumjarcap{
+			color: white;
+			font-size: 12px;
+			padding-left: 400px;
+		}
+		
+		.fixed6{
+			background-image: url(http://proactiveintuition.com/wp-content/uploads/2016/03/personal_lifebalance_sm.png)
+		}
+		
+		h3{
+			color: black;
+			padding-left: 40px;
+			font-size: 50px;
+			text-decoration: underline;
+		}
+		
+		#ppp{
+			color: black
+			}
+		
+		#headtax{
+			width: 300px;
+			padding-left: 350px;
+		}
+		
+		#headtaxcap{
+			font-size: 12px;
+			padding-left: 400px;
+		}
+		
+		.fixed7{
+			background-image: url(http://www.vancitymommyd.com/wp-content/uploads/2018/01/clipart-trophy-clipart-trophy-and-medals-images-on-2-clipartandscrap-plant-clipart.jpg);
+			height: 700px;
+		}
+		
+		#cpr{
+			width: 400px;
+			padding-left: 300px;
+		}
+		
+		#cprcap{
+			font-size: 12px;
+			padding-left: 400px;
+		}
+		
+	</style>
+</head>
+<body>
+    
+    <div class="top">
+    
+        <br>
+        
+    	<aside>
+    		<ul>
+    			<li><a href="#el">Early life</a></li>
+    			
+    			<li><a href="#l">Law</a></li>
+    			
+    			<li><a href="#p">Politics</a></li>
+    			
+    			<li><a href="#faf">Friends and Family</a></li>
+    			
+    			<li><a href="#o">Opium</a></li>
+    			
+    			<li><a href="#pl">Personal Life</a></li>
+    			
+    			<li><a href="#a">Accomplishments</a></li>
+    		</ul>
+    	</aside>
+    	
+    	<div id="title">John Alexander Macdonald</div>
+    	
+    	<div id="subtitle">The Architect of 
+    	Confederation</div>
+    	
+    	<br>
+    	<br>
+    	<br>
+    	
+    	
+    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/John_A_Macdonald_%28ca._1875%29.jpg/220px-John_A_Macdonald_%28ca._1875%29.jpg" alt="" id="img">
+    	
+    
+    </div>
+    
+	
+	
+	<div id="el" class="container fixed1">
+		<h1>Early life</h1>
+		
+		<p id="p">John Alexander Macdonald was born on January 10th 1815 in Glasgow, Scotland to his parents Hugh John Macdonald and Helen Shaw Macdonald. Although this was his actual birthdate, John's birthday was always celebrated a day after on January 11th. He was the third out of five children, three boys and two girls. Unfortunately, both of his brothers died, leaving him the only male in the family other than his father. His brother William died before 1820 from an unknown reason and James died from a blow to the head when a servant watching him struck him for being too noisy. </p>
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143322.87426944956!2d-4.372543178231156!3d55.85538064940391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488815562056ceeb%3A0x71e683b805ef511e!2sGlasgow%2C+UK!5e0!3m2!1sen!2sca!4v1519786373007" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		<br>
+		
+		<p id="p">When John was five, his family decided to move to Kingston, Ontario; halfway across the world, to start a new life. Hugh, John's father, was a unsuccessful merchant and Helen, his mother, was unemployed. The family already had relatives and connections in Kingston who could help them get back on their feet. That is why in 1820, John, his siblings, and his parents boarded the Earl of Buckinghamshire; a ship that would lead them to a new land. Once they arrived in Kingston, Hugh took up the job of a business owner and the Macdonald clan lived in the various stores he ran. It was always noticed by outsiders that the fmaily was very conservative and this might have been caused by lack of money.</p>
+		
+		
+		<p id="p">John attended local schools until he was 10 and was known for being impatient, as well as a prankster. He was often made fun of at school because of his large nose (that would later become his defining feature) but even so, many females were attracted to John. Eventually, his parents scraped together enough money for him to attend the Midland District Grammar school for the next 5 years. Everyday, John had to walk 5 miles in the morning just to get to school. The headmaster at Midland considered him the most promising student but his teacher thought otherwise. John had very clever ways of talking himself out of trouble and his teacher believed that John would make a better lawyer than a clergyman because of it. In 1830 at 15 years of age, John left the Midland District Grammmar School.</p>
+	</div>
+	
+	
+	
+	<div id="l" class="container fixed2">
+		<h1>Law Career</h1>
+		
+		<p id="p">Immediately after dropping out of school, John's parents put him into a job to make money for the family. He was to become apprentice to a young, successful lawyer named George Mackenzie. George 
+		Mackenzie was a corporate lawyer, lawyers who work with companies and businesses. John stayed apprentice to 
+		George for three years until George died from cholera contamination in 1833. Though still underage, John moved on to law school and after recieving his bars, opened up his own law firm. He started participating in difficult, seemingly impossible cases, trying to get himself noticed and win over George Mackenzie's former clients. It worked, and at just 19 years of age, John was a well known defence lawyer for hopeless cases. He became so popular that he was appointed Queens Counsul by the Queen and offered the positions of both Receiver General and Soliciter General.</p>
+		
+		<img src="https://www.cityofkingston.ca/documents/10180/8129091/Rideau+St.+house/cb593f56-694b-4710-b18d-27ac3efcd069?version=1.0&t=1422651216000&imagePreview=1&type=.png" alt="" id="firm">
+		
+		<div id="caption">Law firm John worked at</div>
+		
+		<p id="p">Soon, not only was John defending cases, he was also investing in real estate. John never profited from his land dealings because he bought estate regularly, rashly, and quickly. His first professional client as a lawyer was 16 year old Eliza Grimason and her husband Henry. Eliza and Henry were interested in one of John's properties as they wanted to purchase it and turn it into an inn. After settling on a deal, Eliza and John became goo friends and their friendship would last John's whole life. See more about Eliza in <a href="#faf">Friends and Family</a>. </p>
+		
+		<p id="p">John's most recognized case was for a man named Nils Von Schoultz, later known as von Schoultz. John had served as a Private in the Upper Canada Rebellion and von Schoultz was a Armed Force Leader working with a rebel group who tricked him into giving his help. Von Schoultz was eventually captured during the Battle of the Windmill along with eight other rebels. During his trial, John tried his best defending von Schoultz but he pleaded guilty and was sentanced to death. Even though the case was lost, John received a lot of attention after and gained evem more popularity and attention. John eventually hired a clerk for his law firm named Alexander Campbell. John was said to have often change his law partners which was suprising considering that a good lawyers nature should be constant and steady. Soon after, Alexander Campbell would also become one of John's law partners. </p>
+	</div>
+	
+	
+	
+	<div id="p" class="container fixed3">
+		<h2>Political Career</h2>
+		
+		<p id="pp">After a few years of running his law firm, John decided for another change. He decided to run for the post of Alderman in his local government. He won, and began devoting much of his time towards political activities. A year after his alderman election, a business man approached John and asked him to represent Kingston in the upcoming legislative election, and John agreed. He won that election with almost 7x more votes than his opponent. During the election, parties bribed voters to vote for them using alcohol. The booze was purchased by the candidates themselves and voters drank until they were out of their minds, which resulted in riots and bloody fights.</p>
+		
+		<img src="http://www.macleans.ca/wp-content/uploads/2014/12/MAC01_SIR_JOHN_A_MACDONALD_FEATURE.jpg" alt="" id="spectacles">
+		
+		<div id="specpic">John deep in thought</div>
+		
+		<p id="pp">John loved politics, but was alwaus complaining and talking about retiring. He wasn't as accomplished as other political leaders of that time but he did have a skilled toungue and was great at debates, speeches, and arguments. He had the ability to make his arguments sound logical and confident whereas his opponents weak and insignificant. This skill helped him immensily throughout his career in politics and was arguably his greatest strength. Even though he was so well known for his speaking, his first public speech was 17 years after his election as Alderman. John would spend hours and hours in the Parliament library developing ideas for his speeches</p>
+		
+		<p id="pp">John was easily reelected to represent Kingston in Parliament when elections came back around. He left sometime after to promote government projects in different countries and when he came back, he was appointed Premier. John had a dream of uniting the colonies of British North America as one and called it Confederation, later known as Canada. He dreamed that Confederation would span from sea to sea as a full country with a railroad connecting it all together. He proposed this idea to Parliament and it was accepted. Three meetings took place where various politicians showed up to express opinion and place a vote. The vote passed 91 to 33 and now these politicians are better known as the Fathers of Confederation. John was knighted as a result of Canada being formed and was then known as Sir John Alexander Macdonald.</p>
+	</div>
+	
+	<div id="faf" class="container fixed4">
+		<h1>Friends and Family</h1>
+		
+		<p id="p">John's father's businesses failed and he took up the job of a bank teller, which he kept until his death. Hugh Macdonalds death in 1841 came as quite a shock to John and he became very ill. His friends began urging him to take a break from his job for his health and he complied. He travelled to England and stayed there for a few years to reconnect with distand relatives.</p>
+		
+		<p id="p">John had a very close relationship with his mother and wrote an immense amount of letters addressed to her throughout his lifetime.  Helen Macdonald helped guide John through life and was mentioned from family friends that John inherited all of her good traits like her charm, strong will, and and cleverness. She helped consel John through his dire first marriage and stayed a big part of his life until her death in 1862. </p>
+		
+		<img src="https://www.cityofkingston.ca/documents/10180/8129091/Helen+Macdonald/742f3679-d509-4107-baa2-b9488086a383?version=1.1&t=1422651336000&imagePreview=1&type=.png" alt="" id="helen">
+		
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Isabella_Clark.jpg/220px-Isabella_Clark.jpg" alt="" id="isabella">
+		
+		<img src="http://www.biographi.ca/bioimages/original.3108.jpg" alt="" id="agnes">
+		
+		<img src="https://tce-live2.s3.amazonaws.com/media/media/94d87327-f64f-4844-986f-2bdf8c024a16.jpg" alt="" id="hughson">
+		
+		<div id="momcap">Helen Shaw 
+		Macdonald, Mother</div>
+		
+		<div id="wifeonecap">Isabella Clark Macdonald, 1st wife</div>
+		
+		<div id="wifetwocap">Susan Agnes Bernard 
+Macdonald, 2nd wife</div>
+		
+		<div id="hughcap">Hugh John Macdonald, Son</div>
+		
+		<p id="p">It was during his trip to England that John met his first wife Isabella Clark. It seemed like she had everything John desired in a woman, was easy to like, gentle, kind, and intelligent. John fell in love almost instantly, and though she was 6 years older than him, they married on September 1st, 1843. Only two years after their marriage, Isabella fell ill and her illness consisted of fainting, hysteria, tics, pain and fatigue. John moved her to Savannah and Isabella birthed a baby boy named John Macdonald jr. a year after. Unfortunately, John Jr. died a month after his first birthday from convulsions. Isabella’s condition wasn’t improving and she consumed opium to relieve the pain. See <a href="#o">Opium</a> for more information. She eventually birthed another baby boy named Hugh John Macdonald and died 14 years into her marriage with John at age 48 from tuberculosis.
+</p>
+
+		<p id="p">Hugh John Macdonald was growing up quickly, but because John had no time to care for him, he enlisted his sisters Louisa and Margaret to do it. As Hugh became older, he was interested in persuing a military career, but instead decided to become a politican and lawyer like his father. He moved to Winnepeg, Alberta, married, and was known as the most loved man there. His first wife died 5 years into their marriage after birthing their daughter Isabella 'Daisy' Macdonald. He remarried after and had John 'Jack' Macdonald, who died at age 16, with his second wife.</p>
+	
+		<p id="p">Susan Agnes Bernard was John's secretary's sister and also John's second wife. She was 21 years younger than John, but the two married in 1867. Agnes was described as the perfect politicians wife by every one who knew her. She had a child with John in 1868 named Mary Macdonald. Agnes had a completely white head of hair at the age of 48 from all her duties as Prime Ministers wife. She loved cooking and would often do so for guests who came to visit. She died in 1920, 21 years after John died, at the age of 84.</p>
+		
+		<p id="p">Mary Macdonald was John's only child with his second wife, Susan Agnes Bernard. Mary was a hydrocephalic, someone born with a condition that leaves water in the brain and too large a head. This resulted in Mary being invalid both mentally and physically for her whole life. John was extremely attached to her and fretted for her well being every time he left her. </p>
+		
+		<img src="http://www.historyandinnovation.ca/sites/historyandinnovation.ca/files/styles/large/public/img/story/mary_m_0.jpg?itok=sj_6Gn4T" alt="" id="mary">
+		
+		<div id="marycap">Mary Macdonald, Daughter</div>
+		
+		<p id="p">Eliza Grimason was perhaps John's closest friend through his whole life. At one point there were even some theories that the two were having an affair, but it didn't seem likely. Eliza became the successful innkeeper of the Grimason inn along with her husband Henry, who died an early death. The Grimason inn was a popular place for travellers and it is said that even John A Macdonald spent more nights there than he did at his own house. Eliza did a lot to help John's political career, she held his meetings at her inn, and she helped convince hundreds of people to vote for him. Eliza worshipped John and felt no words to describe how she felt towards him. When she died in 1916, she was buried in the plot of land next to John's grave.</p>
+		
+		<img src="http://www.historyandinnovation.ca/sites/historyandinnovation.ca/files/styles/large/public/img/story/node169.jpg?itok=qOmcf8h0" alt="" id="eliza">
+		
+		<div id="elizacap">Eliza Grimason, Close Friend</div>
+	</div>
+	
+	<div id="o" class="container fixed5">
+		<h1>Opium</h1>
+		
+		<p id="p">Opium is the drug that Isabella Macdonald took to relieve her illness. It is more commonly refered to  as 'Poppy Tears' because it is obtained when a poppy bulb is scored. The poppy then releases 'tears', a latex type liquid that contains 12% morphine in it. The latex is then collected and chemically processed to make drugs like Herion and other synthetic opioids.</p>
+		
+		<p id="p">Opium is a type of poison meaning that over time, the user must increase dosage amounts to achieve the same results. Morphine and codeine are the biological active chemicals in opium and addiction to opium is a result of morphine's after affects. Opium was an easily accessible drug in the 19th century and was the main ingredient in many medicines. Everyone thought that opium was "God's gift" and used opium for everything from calming crying children, to numbing pain during surgery.Around 150 000 to 200 000 opium addicts lived in the US during the late 19th century.</p>
+		
+		<p id="p">Side effects of opium include anger and depression; some opium users commit suicide from the after effect. The earliest evidence of humans using opium was back in 5000 BCE when it was used with hemlock for suicide. All mentally ill patients in the 19th century were treated with opium as it was cheaper than all other medication.</p>
+		
+		<p id="p">The person who discovered morphine was a scientist named Seturner. In 1805, Seturner managed to isolate pure morphine. When he tested the white substance on stray animals, he noticed it sedative effect and named his discovery morphium after the Greek God of sleep, Morpheus. Later on, when a French scientist was reading Seturner's notes on morphium changed the name to morphine to keep the ending syllables the same as all other drugs. Sadly, one day when Serturner had a toothache, he used some morphine and became addicted to his own discovery. </p>
+		
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Apothecary_vessel_Opium_18-19_century.jpg/220px-Apothecary_vessel_Opium_18-19_century.jpg" alt="" id="opiumjar">
+		
+		<div id="opiumjarcap">Jar of Opium used in the 19th century</div>
+		
+	</div>
+	
+	<div id="pl" class="container fixed6">
+		<h3>Personal Life</h3>
+		
+		<p id="ppp">Although history books may describe him otherwise, John A Macdonald had another side to his personality like all people do. John was a extreme racist who hated the Chinese race and had no respect for the Aboriginal peoples. John often referred to Chinese people as a 'semi-barbaric inferior race' and put a hefty head tax on every Chinese immigrant who entered the newly formed Confederation. He increased the head tax amount when he noticed that the Chinese immigration rates were not dropping. John also used Chinese labourers to build his greatest achievement, the Canadian Pacific Railroad while underpaying and starving them. Thousands of Chinese men died while building the railroad. It was never a secret that our first prime minister was friend's with the American Confederates. He welcomed them into Canada during the American Civil War. It is even reasoned that he named Canada Confederation to show sympathy for the Confederates loss in the war. <br><br> John formed Canada on Aboriginal land, broke treaties with them, and starved Aboriginals until they agreed to his demands, in which he would then give them rotten food. Many Aboriginals died throughout John's reign as Prime Minister. Sir John also believed that homosexuality was punishable by death and supported Residential schools.</p>
+		
+		<p id="ppp">Residential schools were boarding schools used for Aboriginal children to rid them of their native cultures and replace it with Canadian culture. Many Residential school graduates felt conflicted about their identity after because they were too different to be considered Canadian and too proper to be considered Aboriginal. All Residential schools were supported by a church and had inadequate funding. Children attending were mistreated, abused, kept away from their parents and reserve elders, and subject to nonconsensual medical expiraments.</p>
+		
+		<p id="ppp">One of the things Sir John A Macdonald is well known for was his fondness for alcohol. He was described as a binge drinker by his contemporaries; he didn't drink all the time but when he did it was in great amounts. John started heavily drinking sometime around his father's death. Back then, he drank cheap local whiskey, but as the years passed, he graduated to sophisticated, imported liqours. It was rumoured for a time in Parliament that no bills were being passed because John was too drunk to defend any of them.</p>
+		
+		<img src="https://tce-live2.s3.amazonaws.com/media/media/b5cac246-b41b-4269-a2ee-bfa416762c1c.jpg" alt="" id="headtax">
+		
+		<div id="headtaxcap">A Chinese immigrant's head tax notice</div>
+	</div>
+	
+	<div id="a" class="container fixed7">
+		<h3>Achievements</h3>
+		
+		<p id="ppp">-Created Canada</p>
+		<p id="ppp">-Built the Canadian Pacific Railway that connected Canada together</p>
+		<p id="ppp">-Persuaded nations to join Confederation</p>
+		
+		<img src="http://www.chapleaulibrary.com/crichton/VC5/13.JPG" alt="" id="cpr">
+		
+		<div id="cprcap">A train on the Canadian Pacific Railway</div>
+	</div>
+	
+	
+	
+	<footer>&copy; Sophia Yuan 2018</footer>
+</body>
+</html>
